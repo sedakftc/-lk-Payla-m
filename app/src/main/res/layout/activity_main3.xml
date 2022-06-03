@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BA9C5F"
+    android:background="@color/arkaplan"
     tools:context=".MainActivity3">
 
     <ImageButton
@@ -13,13 +13,13 @@
         android:layout_height="100dp"
         android:layout_marginTop="76dp"
         android:background="@drawable/corbaa"
-        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+        app:layout_constraintEnd_toStartOf="@+id/btn_sebze"
         app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageView16"
+        android:id="@+id/btn_sebze"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="84dp"
@@ -29,68 +29,68 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageView18"
+        android:id="@+id/btn_et"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/etli_yemek"
-        app:layout_constraintEnd_toStartOf="@+id/imageView19"
+        app:layout_constraintEnd_toStartOf="@+id/btn_pilav"
         app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_corbalar" />
 
     <ImageButton
-        android:id="@+id/imageView19"
+        android:id="@+id/btn_pilav"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="68dp"
         android:background="@drawable/pilav1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_sebze" />
 
     <ImageButton
-        android:id="@+id/imageView20"
+        android:id="@+id/btn_makarna"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/makarna2"
-        app:layout_constraintEnd_toStartOf="@+id/imageView21"
+        app:layout_constraintEnd_toStartOf="@+id/btn_meze"
         app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_et" />
 
     <ImageButton
-        android:id="@+id/imageView21"
+        android:id="@+id/btn_meze"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="68dp"
         android:background="@drawable/meze3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_pilav" />
 
     <ImageButton
-        android:id="@+id/imageView22"
+        android:id="@+id/btn_tatlı"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/tatl1"
-        app:layout_constraintEnd_toStartOf="@+id/imageView23"
+        app:layout_constraintEnd_toStartOf="@+id/btn_fit"
         app:layout_constraintHorizontal_bias="0.42"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_makarna" />
 
     <ImageButton
-        android:id="@+id/imageView23"
+        android:id="@+id/btn_fit"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="72dp"
         android:background="@drawable/fitt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_meze" />
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
@@ -116,7 +116,7 @@
                 android:layout_width="130dp"
                 android:layout_height="40dp"
                 android:layout_weight="1"
-                android:backgroundTint="#F4DCBF"
+                android:backgroundTint="#7C59BC"
                 android:text="Anasayfa"
                 android:textSize="10sp" />
 
@@ -125,25 +125,25 @@
                 android:layout_width="130dp"
                 android:layout_height="40dp"
                 android:layout_weight="1"
-                android:backgroundTint="#DAB68B"
+                android:backgroundTint="#5E32AC"
                 android:text="Ne Pişirsem"
                 android:textSize="10sp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/btn_kalori"
                 android:layout_width="130dp"
                 android:layout_height="40dp"
                 android:layout_weight="1"
-                android:backgroundTint="#F4DCBF"
+                android:backgroundTint="#7C59BC"
                 android:text="Kaç Kalori"
                 android:textSize="10sp" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/btn_favori"
                 android:layout_width="130dp"
                 android:layout_height="40dp"
                 android:layout_weight="1"
-                android:backgroundTint="#DAB68B"
+                android:backgroundTint="#5E32AC"
                 android:text="Favorilerim"
                 android:textSize="10sp" />
         </LinearLayout>
@@ -155,7 +155,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Çorbalar"
-        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintBottom_toTopOf="@+id/btn_et"
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintHorizontal_bias="0.405"
         app:layout_constraintStart_toStartOf="parent"
@@ -169,9 +169,9 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="100dp"
         android:text="Sebze"
-        app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pilav"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sebze"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -180,11 +180,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Et"
-        app:layout_constraintBottom_toTopOf="@+id/imageView20"
+        app:layout_constraintBottom_toTopOf="@+id/btn_makarna"
         app:layout_constraintEnd_toStartOf="@+id/textView6"
         app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/btn_et"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -194,9 +194,9 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="112dp"
         android:text="Pilav"
-        app:layout_constraintBottom_toTopOf="@+id/imageView21"
+        app:layout_constraintBottom_toTopOf="@+id/btn_meze"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pilav"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -205,11 +205,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Makarna"
-        app:layout_constraintBottom_toTopOf="@+id/imageView22"
+        app:layout_constraintBottom_toTopOf="@+id/btn_tatlı"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
         app:layout_constraintHorizontal_bias="0.396"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/btn_makarna"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -219,9 +219,9 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="112dp"
         android:text="Meze"
-        app:layout_constraintBottom_toTopOf="@+id/imageView23"
+        app:layout_constraintBottom_toTopOf="@+id/btn_fit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:layout_constraintTop_toBottomOf="@+id/btn_meze"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -235,7 +235,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView10"
         app:layout_constraintHorizontal_bias="0.385"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/btn_tatlı"
         app:layout_constraintVertical_bias="0.185" />
 
     <TextView
@@ -248,7 +248,7 @@
         android:text="Fit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fit"
         app:layout_constraintVertical_bias="0.07" />
 
     <TextView

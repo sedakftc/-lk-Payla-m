@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BA9C5F"
+    android:background="@color/arkaplan"
     tools:context=".Corbalar"
     tools:layout_editor_absoluteX="-1dp"
     tools:layout_editor_absoluteY="2dp">

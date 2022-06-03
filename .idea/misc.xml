@@ -4,11 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_corbalar.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_etyemekleri.xml" value="0.24094202898550723" />
+        <entry key="app/src/main/res/layout/activity_fit.xml" value="0.24094202898550723" />
+        <entry key="app/src/main/res/layout/activity_kackalorii.xml" value="0.24094202898550723" />
+        <entry key="app/src/main/res/layout/activity_kalori.xml" value="0.14387031408308004" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main3.xml" value="0.2975929978118162" />
+        <entry key="app/src/main/res/layout/activity_makarna.xml" value="0.24094202898550723" />
         <entry key="app/src/main/res/layout/activity_mercimektarif.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/activity_meze.xml" value="0.24094202898550723" />
         <entry key="app/src/main/res/layout/activity_nepisirsem.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_pilav.xml" value="0.24094202898550723" />
+        <entry key="app/src/main/res/layout/activity_sebzeler.xml" value="0.24094202898550723" />
+        <entry key="app/src/main/res/layout/activity_tatli.xml" value="0.24094202898550723" />
       </map>
     </option>
   </component>

@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/arkaplan"
-    tools:context=".nepisirsem">
-
+    tools:context=".kackalorii">
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
         android:layout_width="429dp"

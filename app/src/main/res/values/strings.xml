@@ -2,4 +2,12 @@
     <string name="app_name">yemek</string>
     <string name="mercimektarif"> 1 su bardağı mercimek, 1 yemek kaşığı un, 1 patates rendesi, 2 yemek kaşığı tereyağı,tuz, pul biber </string>
     <string name="butonadi">Hemen Başla</string>
+    <string name="nepisirsem">Ne Pişirsem></string>
+    <string name="sostrf">Tereyağ, pul biber ve kuru nane</string>
+    <string name="btn1">Anasayfa</string>
+    <string name="btn2">Ne Pişirsem</string>
+    <string name="btn3">Kaç Kalori</string>
+    <string name="btn4">Favorilerim</string>
+
+
 </resources>
